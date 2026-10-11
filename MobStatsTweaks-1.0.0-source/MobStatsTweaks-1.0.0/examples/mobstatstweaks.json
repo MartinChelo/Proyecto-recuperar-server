@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "vanilla_only": true,
+  "hostile_only": true,
+  "_comment": "Multipliers: 1.0 = unchanged. Edit this file into config/mobstatstweaks.json after the mod generates it, then run /mobstatstweaks reload.",
+  "global": {
+    "max_health": 1.5,
+    "attack_damage": 1.25,
+    "movement_speed": 1.1,
+    "armor": 1.0,
+    "armor_toughness": 1.0,
+    "knockback_resistance": 1.0,
+    "follow_range": 1.1
+  },
+  "entities": {
+    "minecraft:zombie": {
+      "max_health": 2.0,
+      "attack_damage": 1.5
+    },
+    "minecraft:skeleton": {
+      "max_health": 1.5,
+      "follow_range": 1.35
+    },
+    "minecraft:creeper": {
+      "max_health": 1.5,
+      "follow_range": 1.25
+    }
+  }
+}
